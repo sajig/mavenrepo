@@ -1,0 +1,42 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building hello 1.2.3
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-help-plugin:2.2:describe (default-cli) @ hello ---
+[INFO] 'compile' is a phase corresponding to this plugin:
+org.apache.maven.plugins:maven-compiler-plugin:2.0.2:compile
+
+It is a part of the lifecycle for the POM packaging 'jar'. This lifecycle includes the following phases:
+* validate: Not defined
+* initialize: Not defined
+* generate-sources: Not defined
+* process-sources: Not defined
+* generate-resources: Not defined
+* process-resources: org.apache.maven.plugins:maven-resources-plugin:2.3:resources
+* compile: org.apache.maven.plugins:maven-compiler-plugin:2.0.2:compile
+* process-classes: Not defined
+* generate-test-sources: Not defined
+* process-test-sources: Not defined
+* generate-test-resources: Not defined
+* process-test-resources: org.apache.maven.plugins:maven-resources-plugin:2.3:testResources
+* test-compile: org.apache.maven.plugins:maven-compiler-plugin:2.0.2:testCompile
+* process-test-classes: Not defined
+* test: org.apache.maven.plugins:maven-surefire-plugin:2.10:test
+* prepare-package: Not defined
+* package: org.apache.maven.plugins:maven-jar-plugin:2.2:jar
+* pre-integration-test: Not defined
+* integration-test: Not defined
+* post-integration-test: Not defined
+* verify: Not defined
+* install: org.apache.maven.plugins:maven-install-plugin:2.3:install
+* deploy: org.apache.maven.plugins:maven-deploy-plugin:2.7:deploy
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 0.900s
+[INFO] Finished at: Wed Jun 29 14:22:27 IST 2016
+[INFO] Final Memory: 8M/238M
+[INFO] ------------------------------------------------------------------------
