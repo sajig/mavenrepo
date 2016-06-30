@@ -9,7 +9,7 @@
 		<sourceDirectory>/home/rps/Day1/Hello/source</sourceDirectory>
 		<outputDirectory>/home/rps/Day1/Hello/Output</outputDirectory>
 		<plugins>
-			<plugin>
+			<!--plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>2.0.2</version>
@@ -23,7 +23,7 @@
                                                 <phase>none</phase>
                                         </execution>
                                 </executions>
-			</plugin>
+			</plugin-->
 			<plugin>		
 				<groupId>org.codehaus.mojo</groupId>
 				<artifactId>exec-maven-plugin</artifactId>
