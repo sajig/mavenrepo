@@ -6,8 +6,8 @@
 	<version>1.2.3</version>
 
 	<build>
-		<sourceDirectory>/home/rps/Day1/Hello/source</sourceDirectory>
-		<outputDirectory>/home/rps/Day1/Hello/Output</outputDirectory>
+		<!--sourceDirectory>/home/rps/Day1/Hello/source</sourceDirectory>
+		<outputDirectory>/home/rps/Day1/Hello/Output</outputDirectory-->
 		<plugins>
 			<!---plugin>
 				<groupId>org.apache.maven.plugins</groupId>
